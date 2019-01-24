@@ -96,7 +96,22 @@ address {
   font-size: 16px;
   color: rgb(194, 201, 205);
 }
-
+.text-area2 {
+  border-top-left-radius: 300px 200px;
+  border-bottom-left-radius: 300px 200px;
+  background-color: rgb(231, 246, 252);
+  height: 484px;
+  width: 5cm;
+  right: 0cm;
+  margin-left: -15px;
+  margin-top: 40px;
+}
+.text-area2 .ulist1 {
+  margin-left: 25px;
+}
+#heading1{
+  margin-left: 47px;
+}
 .gadget {
   margin-left: 100px;
   margin-bottom: 40px;
@@ -221,7 +236,6 @@ img {
   }
   #heading1 {
     margin-top: -8px;
-    
   }
   #heading2 {
     margin-top: 10px;
