@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "GothaProBol";
+  src: url("C:/Users/User/Desktop/FLASH/fonts/GothaProBol.otf");
+}
+@font-face {
+  font-family: "gothambold1";
+  src: url("C:/Users/User/Desktop/FLASH/fonts/gothambold1.ttf");
+}
+@font-face {
+  font-family: "libertybold";
+  src: url("C:/Users/User/Desktop/FLASH/fonts/liberty-mt-bold-webfont.ttf");
+}
+@font-face {
+  font-family: "libertymedium";
+  src: url("C:/Users/User/Desktop/FLASH/fonts/liberty-mt-medium-webfont.ttf");
+}
+@font-face {
+  font-family: "libertynusmedium";
+  src: url("C:/Users/User/Desktop/FLASH/fonts/liberty-nus-medium-webfont.ttf");
+}
+@font-face {
+  font-family: "libertynusregular";
+  src: url("C:/Users/User/Desktop/FLASH/fonts/liberty-nus-regular-webfont.ttf");
+}
+body {
+  width: auto;
+  height: auto;
+}
+* {
+  box-sizing: border-box;
+}
+/* ჩარჩო */
+.main-wrapper {
+  background-color: rgb(220, 227, 230);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.all-content {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+/* navbar-ის ელემენტები */
+.navbar-collapse a {
+  font-family: gothambold1;
+  font-weight: bolder;
+}
+.navbar-collapse a:focus {
+  text-decoration: underline;
+  color: blue !important;
+}
+/* პირველი DIV-ი */
+.col-md-6 h6 {
+  font-family: GothaProBol;
+  color: blue;
+  font-size: 25px;
+  margin-left: 4px;
+  margin-bottom: 0.8cm;
+}
+.paragraph {
+  font-family: libertynusregular;
+  font-size: 16px;
+  color: rgb(209, 209, 209);
+}
+.btn-primary {
+  background-color: rgb(0, 175, 241);
+  border-radius: 25px;
+  height: 50px;
+  font-size: 13px;
+  margin-top: 13px;
+  margin-bottom: 14px;
+  width: 150px;
+}
+.text-area1 {
+  margin-top: 100px;
+}
+/* მეორე DIV-ი */
+.ulist1 {
+  list-style: none;
+}
+
+.ulist1 li::before {
+  content: " • ";
+  color: blue;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.text-area2 li,
+.text-area3 li,
+address {
+  font-family: libertynusregular;
+  font-size: 16px;
+  color: rgb(194, 201, 205);
+}
+
+.gadget {
+  margin-left: 100px;
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+div.text-area2 h1 {
+  margin-top: 120px;
+}
+.text-area2 h1 {
+  color: rgb(95, 117, 253);
+  font-size: 0.8cm;
+  margin-left: 25px;
+}
+
+/* მესამე DIV-ი */
+div.text-area3 h1 {
+  color: rgb(95, 117, 253);
+  font-size: 0.8cm;
+  margin-top: 150px;
+  margin-left: 70px;
+}
+
+.ulist2 {
+  list-style: none;
+}
+
+.ulist2 li::before {
+  content: " • ";
+  color: blue;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.ulist2 {
+  margin-left: 50px;
+  margin-bottom: 150px;
+}
+.alltogether {
+  margin-right: 60px;
+  margin-top: 130px;
+}
+/* მეოთხე DIV-ი */
+.text-area4 h1 {
+  color: rgb(95, 117, 253);
+  font-size: 0.4cm;
+  margin-left: 0px;
+  margin-top: 3.1cm;
+}
+
+address {
+  margin-left: 0 px;
+}
+#navbar-footer {
+  font-size: 12px;
+  font-weight: bolder;
+}
+.input-area {
+  background-color: rgb(68, 92, 253);
+  border-radius: 15px;
+  padding: 4em;
+  top: 3cm;
+}
+.message {
+  margin-top: 8px;
+  color: white !important;
+  font-family: libertynusregular;
+}
+#submit {
+  margin-left: 6cm;
+}
+.form-control {
+  background-color: rgb(68, 92, 253);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Mobile view */
+@media only screen and (max-width: 800px) {
+  .btn-primary {
+    background-color: rgb(0, 175, 241);
+    border-radius: 25px;
+    height: 50px;
+    font-size: 13px;
+    margin-top: 13px;
+    margin-bottom: 14px;
+    width: 150px;
+    margin-left: 60px;
+  }
+  .text-area1 .btn-primary {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-wrapper {
+    background-color: rgb(220, 227, 230);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .gadget {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .alltogether {
+    display: block;
+    margin: auto;
+  }
+  .heading {
+    widows: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 24px;
+    font-size: 20px;
+  }
+  #heading1 {
+    margin-top: -8px;
+    
+  }
+  #heading2 {
+    margin-top: 10px;
+    margin-left: 24px;
+    font-size: 20px;
+  }
+  .ulist2 {
+    margin-left: 0px;
+  }
+  .heading3 {
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  address {
+    text-align: center;
+  }
+  .myfooter {
+    margin-top: 125px;
+  }
+  #navbar-footer {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  #submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .input-area {
+    margin-top: -4cm;
+  }
+}
+
+input::-webkit-input-placeholder {
+  font-size: 12px;
+}
